@@ -1,0 +1,26 @@
+{
+  "name": "modern_portfolio",
+  "version": "1.0.0",
+  "description": "Responsive Portfolio Website",
+  "main": "index.js",
+  "homepage": "https://ralitsavoronevska.github.io/modern_portfolio",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "Ralitsa Voronevska",
+  "license": "MIT",
+  "dependencies": {
+    "gh-pages": "^2.0.1",
+    "node-sass": "^4.12.0",
+    "tar": "^4.4.10"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ralitsavoronevska/modern_portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ralitsavoronevska/modern_portfolio/issues"
+  }
+}
