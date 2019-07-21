@@ -11,6 +11,7 @@
   
   <!-- Lora && Font Awesome woff2 for Brands Styles -->
   <link rel="preconnect" as="font" type="font/woff2" href="https://fonts.gstatic.com/s/lora/v13/0QIgMX1D_JOuO7HeNtxumg.woff2" crossorigin="anonymous">
+  <link rel="preconnect" as="font" type="font/woff2" href="https://fonts.gstatic.com/s/lora/v13/0QIiMX1D_JOuMw_Dmt5emNGr.woff2" crossorigin="anonymous">
   <link rel="preconnect" as="font" type="font/woff2" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/webfonts/fa-brands-400.woff2" crossorigin="anonymous">
   <link rel="preconnect" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/fontawesome.min.css" onload="this.rel='stylesheet'">
   <link rel="stylesheet" href="css/all.css" media="all">
@@ -82,7 +83,75 @@
   <main id="home">
     <h1 class="lg-heading">Ralitsa <span class="text-secondary">Voronevska</span></h1>
     <h2 class="sm-heading">The <span class="txt-type text-secondary" data-wait="3000" data-words='["Front-end Enthusiast", "Project Manager", "Creator"]'></span></h2>
+    <script>
+      'use strict';
+      // ES6 Class
+      class TypeWriter {
+        constructor(txtElement, words, wait = 3000) {
+          this.txtElement = txtElement;
+          this.words = words;
+          this.txt = '';
+          this.wordIndex = 0;
+          this.wait = parseInt(wait, 10);
+          this.type();
+          this.isDeleting = false;
+        }
 
+        type() {
+          // Current index of word
+          const current = this.wordIndex % this.words.length;
+          // Get full text of current word
+          const fullTxt = this.words[current];
+
+          // Check if deleting
+          if(this.isDeleting) {
+            // Remove char
+            this.txt = fullTxt.substring(0, this.txt.length - 1);
+          } else {
+            // Add char
+            this.txt = fullTxt.substring(0, this.txt.length + 1);
+          }
+
+          // Insert txt into element
+          this.txtElement.innerHTML = `<span class="txt">${this.txt}</span>`;
+
+          // Initial Type Speed
+          let typeSpeed = 300;
+
+          if(this.isDeleting) {
+            typeSpeed /= 2;
+          }
+
+          // If word is complete
+          if(!this.isDeleting && this.txt === fullTxt) {
+            // Make pause at end
+            typeSpeed = this.wait;
+            // Set delete to true
+            this.isDeleting = true;
+          } else if(this.isDeleting && this.txt === '') {
+            this.isDeleting = false;
+            // Move to next word
+            this.wordIndex++;
+            // Pause before start typing
+            typeSpeed = 500;
+          }
+
+          setTimeout(() => this.type(), typeSpeed);
+        }
+      }
+
+      // Init On DOM Load
+      document.addEventListener('DOMContentLoaded', init);
+
+      // Init App
+      function init() {
+        const txtElement = document.querySelector('.txt-type');
+        const words = JSON.parse(txtElement.getAttribute('data-words'));
+        const wait = txtElement.getAttribute('data-wait');
+        // Init TypeWriter
+        new TypeWriter(txtElement, words, wait);
+      }
+    </script>
     <div class="icons">
       <a href="https://twitter.com/RVoronevska" target="_blank" rel="noopener" aria-label="Twitter icon">
         <i class="fab fa-twitter fa-2x"></i>
