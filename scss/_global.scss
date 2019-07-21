@@ -8,7 +8,6 @@
   src: url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/webfonts/fa-brands-400.woff2") format("woff2");
 }
 
-
 $primary-color: #444;
 $secondary-color: rgb(31, 203, 207);
 $background-opacity: 0.9;
@@ -99,8 +98,7 @@ main {
     -webkit-font-smoothing: antialiased;
   }
   a {
-    padding: 0.5rem;
-    margin: 0.5rem;
+    padding: 0.4rem;
     @include easeOut;
     &:hover { color: $secondary-color; }
   }
