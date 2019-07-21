@@ -59,7 +59,7 @@ main {
 
 .logo {
   position: absolute;
-  background-image: url("../img/logo.svg");
+  background-image: url("../img/logo.png");
   background-repeat: no-repeat;
   left: 2.5rem;
   top: 0;
@@ -121,7 +121,7 @@ main {
       transform: translate3d(0, 0, 0); }
     .menu-branding .logo {
       position: absolute;
-      background-image: url("../img/logo.svg");
+      background-image: url("../img/logo.png");
       background-repeat: no-repeat;
       left: 2.5rem;
       top: 0.75rem;
