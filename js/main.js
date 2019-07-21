@@ -6,6 +6,10 @@
 	const menuNav 		= document.querySelector('.menu-nav');
 	const menuBranding 	= document.querySelector('.menu-branding');
 	const navItems 		= document.querySelectorAll('.nav-item');
+	// const menuElements	= 
+	// 	document.querySelectorAll(
+	// 		".menu-btn, .menu, .menu-nav, .menu-branding, .nav-item"
+	// 	);
 
 	// set inital state of menu
 	let showMenu = false;
@@ -20,7 +24,13 @@
 			navItems.forEach(
 				item => item.classList.add( "show" )
 			);
-
+			// menuElements.forEach(elem => {
+			// 	if (elem.className == "menu-btn") {
+			// 		elem.classList.add( "close" );
+			// 	} else {
+			// 		elem.classList.add( "show" );
+			// 	}
+			// });
 			document.body.style.overflowY = "hidden";
 			showMenu = true;
 		} else {
@@ -31,7 +41,13 @@
 			navItems.forEach(
 				item => item.classList.remove( "show" )
 			);
-
+			// menuElements.forEach(elem => {
+			// 	if (elem.className == "menu-btn") {
+			// 		elem.classList.remove( "close" );
+			// 	} else {
+			// 		elem.classList.remove( "show" );
+			// 	}
+			// });
 			document.body.style.overflowY = "scroll";
 			showMenu = false;
 		}
