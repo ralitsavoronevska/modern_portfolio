@@ -17,11 +17,8 @@
 
 # Chrome LightHouse Audit
 
-* Desktop:
-<img src="dist/img/modern_portfolio_desktop_LightHouse_Audit.jpg" />
-
-* Mobile:
-<img src="dist/img/modern_portfolio_mobile_LightHouse_Audit.jpg" />
+* Desktop & Mobile:
+<img src="dist/img/modern_portfolio_desktop_&_mobile_LightHouse_Audit.jpg" />
 
 # PageSpeed Insights Results
 
