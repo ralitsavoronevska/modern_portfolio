@@ -352,3 +352,8 @@ and just make commits on top of that. Then push.
 
 
 - Mark
+
+17. In case you messed up and want to reset origin to a specific commit:
+
+git reset --hard <commit-hash> [Example: cedc856]
+git push --force origin master
