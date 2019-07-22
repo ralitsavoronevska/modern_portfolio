@@ -10,7 +10,7 @@
 * [Font Awesome 5.9.0](https://fontawesome.com/changelog/latest)
 
 # Browser support: 
-(tested: 07/17/2019)
+(tested: 07/22/2019)
 * Chrome 75.0.3770.142 (Official Build) (64-bit)
 * Firefox 68.0 (64-bit)
 * Opera 62.0.3331.72
