@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lora:700,700i&display=swap');
 
-@font-face {
+@mixin font-face {
   font-family: "Font Awesome 5 Brands";
   font-weight: normal;
   font-display: block;
