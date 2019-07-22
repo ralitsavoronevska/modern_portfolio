@@ -90,13 +90,6 @@ main {
 
 .icons { 
   margin-top: 1rem;
-  .icons::before {
-    display: inline-block;
-    font-style: normal;
-    font-variant: normal;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-  }
   a {
     padding: 0.4rem;
     @include easeOut;
