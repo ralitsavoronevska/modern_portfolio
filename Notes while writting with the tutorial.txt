@@ -1,4 +1,4 @@
-gitGitHub:
+git First steps:
 
 git init
 
@@ -291,8 +291,8 @@ git remote add origin https://github.com/ralitsavoronevska/modern_portfolio.git
 git push -u origin master
 
 
-*13.1. Add --allow-unrelated-histories to solve the Git fatal error ñ 
-ìrefusing to merge unrelated historiesî
+*13.1. Add --allow-unrelated-histories to solve the Git fatal error ‚Äì 
+‚Äúrefusing to merge unrelated histories‚Äù
 
 $ git pull origin master
 
