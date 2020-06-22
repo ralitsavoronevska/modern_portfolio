@@ -639,7 +639,7 @@ main#work {
     .tabCards__filters .tabCards__filters__wrapper {
       width: 40% !important; }
       .tabCards__filters .tabCards__filters__wrapper .tabCards__btn, .tabCards__filters .tabCards__filters__wrapper .active--btn {
-        padding: 1rem 4rem !important; } }
+        padding: 1rem 3rem !important; } }
 
 @media screen and (min-width: 1280px) {
   .cards.container {
