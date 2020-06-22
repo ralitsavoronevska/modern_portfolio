@@ -9,12 +9,20 @@
 * [Google Fonts](https://fonts.google.com/)
 * [Font Awesome 5.9.0](https://fontawesome.com/changelog/latest)
 
-# Browser support: 
-(tested: 07/22/2019)
-* Chrome 75.0.3770.142 (Official Build) (64-bit)
-* Firefox 68.0 (64-bit)
-* Opera 62.0.3331.72
-* IE - no support for the moment 
+# Browser support:
+(Last updated and tested: 22/06/2020)
+* Chrome 83.0.4103.106 (Official Build) (64-bit)
+* Firefox 77.0.1 (64-bit)
+* Opera 68.0.3618.173
+* IE - no support for the moment
+
+# Tools used:
+* Photoshop CC 2020
+* [CSS filter generator to convert from black to target hex color [SVGs]](https://codepen.io/sosuke/pen/Pjoqqp)
+* [W3C HTML Validator](https://validator.w3.org/)
+* [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+* [LightHouse Audit](https://developers.google.com/web/tools/lighthouse/)
+* [PageSpeed Insights Audit](https://developers.google.com/speed/pagespeed/insights/)
 
 # Chrome LightHouse Audit
 
@@ -32,11 +40,11 @@
 # Resources used:
 
 # Logo:
-* [Smoke Logo Tutorial Article](http://dezcorb.com/how-to-create-a-smoke-logo-in-photoshop-cs6-smoke-alphabet-logo/) 
-* [Smoke Logo YouTube Tutorial](https://www.youtube.com/watch?time_continue=1&v=BuDmeErQXqQ) 
+* [Smoke Logo Tutorial Article](http://dezcorb.com/how-to-create-a-smoke-logo-in-photoshop-cs6-smoke-alphabet-logo/)
+* [Smoke Logo YouTube Tutorial](https://www.youtube.com/watch?time_continue=1&v=BuDmeErQXqQ)
 
 # Traversy Media:
-* [Responsive Portfolio Website Project YouTube Series Tutorial](https://www.youtube.com/watch?v=gYzHS-n2gqU&list=PLillGF-RfqbYoGoCjKoMOkVznV6aSXKzU) 
+* [Responsive Portfolio Website Project YouTube Series Tutorial](https://www.youtube.com/watch?v=gYzHS-n2gqU&list=PLillGF-RfqbYoGoCjKoMOkVznV6aSXKzU)
 * [Responsive Portfolio Website Project in GitHub](https://github.com/bradtraversy/modern_portfolio)
 * [Pure JavaScript Type Writer Effect YouTube Tutorial](https://www.youtube.com/watch?v=POX3dT-pB4E)
 * [Pure JavaScript Type Writer Effect Project in CodePen](https://codepen.io/bradtraversy/pen/jeNjwP)

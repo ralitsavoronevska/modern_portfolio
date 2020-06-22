@@ -73,7 +73,7 @@ which basically is like
 a mafifest for our project:
 
 
-=> npm init (in the console, it will as us some questions:
+=> npm init (in the console, it will ask us some questions:
 
 
 
@@ -146,7 +146,7 @@ npm run sass
 
 
 finilize to
-"sass": "node -sass -w scss/ -o dist/css/ --recursive"
+"sass": "node-sass -w scss/ -o dist/css/ --recursive"
 
 
 -w === watch
@@ -308,7 +308,7 @@ $ git pull origin master --allow-unrelated-histories
 
 14. Git Pages:
 
-
+npm
 npm i gh-pages
 
 
@@ -325,7 +325,7 @@ write
 
 
 16. Write Deploy script
-
+npm
 
 after 
 

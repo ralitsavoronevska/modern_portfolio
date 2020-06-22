@@ -1,17 +1,13 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta http-equiv="Cache-control" content="public">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Modern portfolio">
-  <meta name="keywords" content="HTML5, SASS, Vanilla JavaScript">
-  <meta name="author" content="Ralitsa Voronevska">
-  <link rel="preconnect" as="font" type="font/woff2" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/webfonts/fa-brands-400.woff2" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" integrity="sha256-UzFD2WYH2U1dQpKDjjZK72VtPeWP50NoJjd26rnAdUI=" crossorigin="anonymous" />
-  <link rel="stylesheet" href="css/all.css" media="all">
+  <meta name="web_author" content="Ralitsa Voronevska">
   <meta name="theme-color" content="#1fcbcf">
+  <link rel="stylesheet" href="css/all.css" media="all">
   <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
   <title>View My Work</title>
 </head>
@@ -38,21 +34,21 @@
 
         <div class="icons">
           <a href="https://twitter.com/RVoronevska" target="_blank" rel="noopener" aria-label="Twitter icon">
-            <i class="fab fa-twitter fa-2x"></i>
+            <svg class="fab fa-twitter fa-2x"></svg>
           </a>
           <a href="https://www.facebook.com/ralitsavoronevska" target="_blank" rel="noopener" aria-label="Facebook icon">
-            <i class="fab fa-facebook-square fa-2x"></i>
+            <svg class="fab fa-facebook-square fa-2x"></svg>
           </a>
           <a href="https://www.linkedin.com/in/ralitsavoronevska123/" target="_blank" rel="noopener" aria-label="LinkedIn icon">
-            <i class="fab fa-linkedin fa-2x"></i>
+            <svg class="fab fa-linkedin fa-2x"></svg>
           </a>
           <a href="https://github.com/ralitsavoronevska/" target="_blank" rel="noopener" aria-label="GitHub icon">
-            <i class="fab fa-github fa-2x"></i>
+            <svg class="fab fa-github fa-2x"></svg>
           </a>
           <a href="https://codepen.io/ralitsavoronevska/" target="_blank" rel="noopener" aria-label="Codepen icon">
-            <i class="fab fa-codepen fa-2x"></i>
+            <svg class="fab fa-codepen fa-2x"></svg>
           </a>
-          <a href="https://www.freecodecamp.org/ralitsavoronevska" target="_blank" rel="noopener" aria-label="Freecodecamp icon"><i class="fab fa-free-code-camp fa-2x"></i></a>
+          <a href="https://www.freecodecamp.org/ralitsavoronevska" target="_blank" rel="noopener" aria-label="Freecodecamp icon"><svg class="fab fa-free-code-camp fa-2x"></svg></a>
         </div>
       </div>
 
@@ -75,51 +71,281 @@
   </header>
 
   <main id="work">
-    <h1 class="lg-heading">My <span class="text-secondary">Work</span></h1>
-    <h2 class="sm-heading">Check out some of my projects...</h2>
-    <div class="projects">
+    <!-- START PROJECTS SECTION -->
+    <section id="projects" class="projects-section">
+      <h2 class="lg-heading">My <span class="text-secondary">Work</span></h2>
+      <p class="tabCards__filters__desc all--desc active--desc">Check out my latest web software development projects, which include <span class="text-secondary">FreeCodeCamp Projects</span>, <span class="text-secondary">Personal Projects</span> and <span class="text-secondary">Front-end Developer Interview Tasks</span>. Use the buttons below to filter the Projects by category.</p>
+      <p class="tabCards__filters__desc fcc--desc">These projects are part of the <span class="text-secondary">Responsive Web Design Projects Certification</span> @ <span class="text-secondary">FreeCodeCamp</span> [300 hours]</p>
+      <p class="tabCards__filters__desc personal--desc">These are <span class="text-secondary">Personal Projects</span> that I've created alone or in a team along the <span class="text-secondary">Front-end Development road</span>.</p>
+      <p class="tabCards__filters__desc fed--desc">These are <span class="text-secondary">Front-end Developer Interview Tasks</span> that I've realized during my participation in a few <span class="text-secondary">Front-end Developer Interviews</span>.</p>
 
-      <div class="item">
-        <a href="#!"><img src="img/projects/project1.jpg" alt="Project"></a>
-        <div class="btn-light"><i class="fa fa-eye"></i> Project</div>
-        <div class="btn-dark"><i class="fab fa-github"></i> GitHub</div>
-      </div>
+      <!-- Tabs Section -->
+      <section class="tabCards" id="ads">
+        <div class="tabCards__filters">
+          <div class="tabCards__filters__wrapper">
+            <div class="tabCards__btn__wrapper"><button class="tabCards__btn active--btn btn--clearfix pointer font--sm font--bold" id="all">All</button></div>
+            <div class="tabCards__btn__wrapper"><button class="tabCards__btn btn--clearfix pointer font--sm font--bold" id="fcc">FCC</button></div>
+            <div class="tabCards__btn__wrapper"><button class="tabCards__btn btn--clearfix pointer font--sm font--bold" id="personal">Personal</button></div>
+            <div class="tabCards__btn__wrapper"><button class="tabCards__btn btn--clearfix pointer font--sm font--bold" id="fed">FED</button></div>
+          </div>
+        </div>
 
-      <div class="item">
-        <a href="#!"><img src="img/projects/project2.jpg" alt="Project"></a>
-        <div class="btn-light"><i class="fa fa-eye"></i> Project</div>
-        <div class="btn-dark"><i class="fab fa-github"></i> GitHub</div>
-      </div>
+        <ul class="cards list container">
+          <li class="card__item fcc">
+            <div class="box">
+              <div class="imgBox">
+                <img src='img/personal_portfolio_page.jpg' alt='Personal Portfolio Page Image'>
+              </div>
+              <div class="content">
+                <h2 class="project-tile"><svg class="fas fa-fingerprint"></svg><span> Personal Portfolio Page</span></h2>
+                <p class="description"><svg class="fas fa-file-alt"></svg> I've created a Personal Portfolio Page as the one-page equivalent to my actual GitHub Personal Portfolio Page.</p>
+                <div class="tech-used icons">
+                  <svg class="fab fa-html5 fa-2x"></svg>
+                  <svg class="fab fa-css3-alt fa-2x"></svg>
+                  <svg class="fab fa-sass fa-2x"></svg>
+                  <svg class="fab fa-js-square fa-2x"></svg>
+                </div>
+                <div class="icons">
+                  <a href="https://ralitsavoronevska.github.io/fcc-personal-portfolio-page" target="_blank" rel="noopener" aria-label="Eye icon"><svg class="fas fa-eye fa-2x"></svg></a>
+                  <a href="https://github.com/ralitsavoronevska/fcc-personal-portfolio-page" target="_blank" rel="noopener" aria-label="GitHub icon"><svg class="fab fa-github fa-2x"></svg></a>
+                  <a href="https://codepen.io/ralitsavoronevska/pen/KOdQJZ" target="_blank" rel="noopener" aria-label="Codepen icon"><svg class="fab fa-codepen fa-2x"></svg></a>
+                </div>
+              </div>
+            </div>
+          </li>
 
-      <div class="item">
-        <a href="#!"><img src="img/projects/project3.jpg" alt="Project"></a>
-        <div class="btn-light"><i class="fa fa-eye"></i> Project</div>
-        <div class="btn-dark"><i class="fab fa-github"></i> GitHub</div>
-      </div>
+          <li class="card__item fcc">
+            <div class="box">
+              <div class="imgBox">
+                <img src='img/fcc_tribute_page.jpg' alt='Tribute Page Image'>
+              </div>
+              <div class="content">
+                <h2 class="project-tile"><svg class="fas fa-fingerprint"></svg><span> Tribute Page</span></h2>
+                <p class="description"><svg class="fas fa-file-alt"></svg> I've created a Tribute Page for Brendan Eich - Part Artist, Part Hacker and Full Time Programmer.</p>
+                <div class="tech-used icons">
+                  <svg class="fab fa-html5 fa-2x"></svg>
+                  <svg class="fab fa-css3-alt fa-2x"></svg>
+                  <svg class="fab fa-sass fa-2x"></svg>
+                  <svg class="fab fa-js-square fa-2x"></svg>
+                </div>
+                <div class="icons">
+                  <a href="https://ralitsavoronevska.github.io/fcc-tribute-page/" target="_blank" rel="noopener" aria-label="Eye icon"><svg class="fas fa-eye fa-2x"></svg></a>
+                  <a href="https://github.com/ralitsavoronevska/fcc-tribute-page" target="_blank" rel="noopener" aria-label="GitHub icon"><svg class="fab fa-github fa-2x"></svg></a>
+                  <a href="https://codepen.io/ralitsavoronevska/pen/zVOaXb" target="_blank" rel="noopener" aria-label="Codepen icon"><svg class="fab fa-codepen fa-2x"></svg></a>
+                </div>
+              </div>
+            </div>
+          </li>
 
-      <div class="item">
-        <a href="#!"><img src="img/projects/project4.jpg" alt="Project"></a>
-        <div class="btn-light"><i class="fa fa-eye"></i> Project</div>
-        <div class="btn-dark"><i class="fab fa-github"></i> GitHub</div>
-      </div>
+          <li class="card__item fcc">
+            <div class="box">
+              <div class="imgBox">
+                <img src='img/coming_soon.jpg' alt='Survey Form Image'>
+              </div>
+              <div class="content">
+                <h2 class="project-tile"><svg class="fas fa-fingerprint"></svg><span> Survey Form</span></h2>
+                <p class="description"><svg class="fas fa-file-alt"></svg> I've created a Survey Form equivalent of the <span class="text-secondary"><a href="https://services.google.com/fb/forms/ampnewsletter/" target="_blank">AMP Newsletter Subscription Page</a></span>.</p>
+                <div class="tech-used icons">
+                  <svg class="fab fa-html5 fa-2x"></svg>
+                  <svg class="fab fa-css3-alt fa-2x"></svg>
+                  <svg class="fab fa-sass fa-2x"></svg>
+                  <svg class="fab fa-js-square fa-2x"></svg>
+                </div>
+                <div class="icons">
+                  <!-- https://ralitsavoronevska.github.io/fcc-survey-form -->
+                  <a href="#" target="_blank" rel="noopener" aria-label="Eye icon"><svg class="fas fa-eye fa-2x"></svg></a>
+                  <!-- https://github.com/ralitsavoronevska/fcc-survey-form -->
+                  <a href="#" target="_blank" rel="noopener" aria-label="GitHub icon"><svg class="fab fa-github fa-2x"></svg></a>
+                  <!-- https://codepen.io/ralitsavoronevska/pen/ZgbxGq -->
+                  <a href="#" target="_blank" rel="noopener" aria-label="Codepen icon"><svg class="fab fa-codepen fa-2x"></svg></a>
+                </div>
+              </div>
+            </div>
+          </li>
 
-      <div class="item">
-        <a href="#!"><img src="img/projects/project5.jpg" alt="Project"></a>
-        <div class="btn-light"><i class="fa fa-eye"></i> Project</div>
-        <div class="btn-dark"><i class="fab fa-github"></i> GitHub</div>
-      </div>
+          <li class="card__item fcc">
+            <div class="box">
+              <div class="imgBox">
+                <img src='img/coming_soon.jpg' alt='Product Landing Page Image'>
+              </div>
+              <div class="content">
+                <h2 class="project-tile"><svg class="fas fa-fingerprint"></svg><span> Product Landing Page</span></h2>
+                <p class="description"><svg class="fas fa-file-alt"></svg> I've created a Headphones Product Landing Page by following <span class="text-secondary"><a href="https://www.youtube.com/watch?v=61R5kn_kYwY" target="_blank">Brad Traversy's [Traversy Media] tutorial</a></span>.</p>
+                <div class="tech-used icons">
+                  <svg class="fab fa-html5 fa-2x"></svg>
+                  <svg class="fab fa-css3-alt fa-2x"></svg>
+                  <svg class="fab fa-sass fa-2x"></svg>
+                  <svg class="fab fa-js-square fa-2x"></svg>
+                </div>
+                <div class="icons">
+                  <!-- https://ralitsavoronevska.github.io/fcc-product-landing-page -->
+                  <a href="#" target="_blank" rel="noopener" aria-label="Eye icon"><svg class="fas fa-eye fa-2x"></svg></a>
+                  <!-- https://github.com/ralitsavoronevska/fcc-product-landing-page -->
+                  <a href="#" target="_blank" rel="noopener" aria-label="GitHub icon"><svg class="fab fa-github fa-2x"></svg></a>
+                  <!-- https://codepen.io/ralitsavoronevska/pen/mNexPO -->
+                  <a href="#" target="_blank" rel="noopener" aria-label="Codepen icon"><svg class="fab fa-codepen fa-2x"></svg></a>
+                </div>
+              </div>
+            </div>
+          </li>
 
-      <div class="item">
-        <a href="#!"><img src="img/projects/project6.jpg" alt="Project"></a>
-        <div class="btn-light"><i class="fa fa-eye"></i> Project</div>
-        <div class="btn-dark"><i class="fab fa-codepen"></i> CodePen</div>
-      </div>
+          <li class="card__item fcc">
+            <div class="box">
+              <div class="imgBox">
+                <img src='img/coming_soon.jpg' alt='Tech Doc Page Image'>
+              </div>
+              <div class="content">
+                <h2 class="project-tile"><svg class="fas fa-fingerprint"></svg><span> Tech Doc Page</span></h2>
+                <p class="description"><svg class="fas fa-file-alt"></svg> I've created a Technical Documentation Page for JavaScript by mirroring <span class="text-secondary"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">MDN's Tecnical Documentation design</a></span>.</p>
+                <div class="tech-used icons">
+                  <svg class="fab fa-html5 fa-2x"></svg>
+                  <svg class="fab fa-css3-alt fa-2x"></svg>
+                  <svg class="fab fa-sass fa-2x"></svg>
+                  <svg class="fab fa-js-square fa-2x"></svg>
+                </div>
+                <div class="icons">
+                  <!-- https://ralitsavoronevska.github.io/fcc-tech-doc-page -->
+                  <a href="#" target="_blank" rel="noopener" aria-label="Eye icon"><svg class="fas fa-eye fa-2x"></svg></a>
+                  <!-- https://github.com/ralitsavoronevska/fcc-tech-doc-page -->
+                  <a href="#" target="_blank" rel="noopener" aria-label="GitHub icon"><svg class="fab fa-github fa-2x"></svg></a>
+                  <!-- https://codepen.io/ralitsavoronevska/pen/zgvWKQ -->
+                  <a href="#" target="_blank" rel="noopener" aria-label="Codepen icon"><svg class="fab fa-codepen fa-2x"></svg></a>
+                </div>
+              </div>
+            </div>
+          </li>
 
-    </div>
+          <li class="card__item personal">
+            <div class="box">
+              <div class="imgBox">
+                <img src='img/personal_portfolio_page.jpg' alt='Personal Portfolio Page Image'>
+              </div>
+              <div class="content">
+                <h2 class="project-tile"><svg class="fas fa-fingerprint"></svg><span> Modern Portfolio</span></h2>
+                <p class="description"><svg class="fas fa-file-alt"></svg> I've created a Modern Portfolio Website in order to showcase my Projects.</p>
+                <div class="tech-used icons">
+                  <svg class="fab fa-html5 fa-2x"></svg>
+                  <svg class="fab fa-css3-alt fa-2x"></svg>
+                  <svg class="fab fa-sass fa-2x"></svg>
+                  <svg class="fab fa-js-square fa-2x"></svg>
+                </div>
+                <div class="icons">
+                  <a href="https://ralitsavoronevska.github.io/modern_portfolio/" target="_blank" rel="noopener" aria-label="Eye icon"><svg class="fas fa-eye fa-2x"></svg></a>
+                  <a href="https://github.com/ralitsavoronevska/modern_portfolio" target="_blank" rel="noopener" aria-label="GitHub icon"><svg class="fab fa-github fa-2x"></svg></a>
+                  <a href="https://codepen.io/collection/AawQmb" target="_blank" rel="noopener" aria-label="Codepen icon"><svg class="fab fa-codepen fa-2x"></svg></a>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li class="card__item personal">
+            <div class="box">
+              <div class="imgBox">
+                <img src='img/coming_soon.jpg' alt='i-Tixy Image'>
+              </div>
+              <div class="content">
+                <h2><svg class="fas fa-fingerprint"></svg><span> i-Tixy</span></h2>
+                <p class="description"><svg class="fas fa-file-alt"></svg> Art & Cultural platform providing tickets and info for events, as well as interactive UX.</p>
+                <div class="tech-used icons">
+                  <svg class="fab fa-html5 fa-2x"></svg>
+                  <svg class="fab fa-css3-alt fa-2x"></svg>
+                  <svg class="fab fa-sass fa-2x"></svg>
+                  <svg class="fab fa-js-square fa-2x"></svg>
+                  <svg class="fab fa-gulp fa-4x"></svg>
+                </div>
+                <div class="icons">
+                  <!-- https://ralitsavoronevska.github.io/itixy -->
+                  <a href="#" target="_blank" rel="noopener" aria-label="Eye icon"><svg class="fas fa-eye fa-2x"></svg></a>
+                  <!-- https://github.com/ralitsavoronevska/itixy -->
+                  <a href="#" target="_blank" rel="noopener" aria-label="GitHub icon"><svg class="fab fa-github fa-2x"></svg></a>
+                  <!-- https://codepen.io/collection/neRQMa -->
+                  <a href="#" target="_blank" rel="noopener" aria-label="Codepen icon"><svg class="fab fa-codepen fa-2x"></svg></a>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li class="card__item personal">
+            <div class="box">
+              <div class="imgBox">
+                <img src='img/coming_soon.jpg' alt='Hairstylist Website Image'>
+              </div>
+              <div class="content">
+                <h2><svg class="fas fa-fingerprint"></svg><span> Hairstylist Website</span></h2>
+                <p class="description"><svg class="fas fa-file-alt"></svg> I've created a Hairstylist One-page Website as a tribute to my dear friend and personal hairstylist - <span class="text-secondary"><a href="https://www.facebook.com/kurkunjieva" target="_blank">Anna Ivanova</a></span>.</p>
+                <div class="tech-used icons">
+                  <svg class="fab fa-html5 fa-2x"></svg>
+                  <svg class="fab fa-css3-alt fa-2x"></svg>
+                  <svg class="fab fa-sass fa-2x"></svg>
+                  <svg class="fab fa-js-square fa-2x"></svg>
+                </div>
+                <div class="icons">
+                  <!-- https://ralitsavoronevska.github.io/hairstylist_website -->
+                  <a href="#" target="_blank" rel="noopener" aria-label="Eye icon"><svg class="fas fa-eye fa-2x"></svg></a>
+                  <!-- https://github.com/ralitsavoronevska/hairstylist_website -->
+                  <a href="#" target="_blank" rel="noopener" aria-label="GitHub icon"><svg class="fab fa-github fa-2x"></svg></a>
+                  <!-- https://codepen.io/ralitsavoronevska/pen/rbKmGv -->
+                  <a href="#" target="_blank" rel="noopener" aria-label="Codepen icon"><svg class="fab fa-codepen fa-2x"></svg></a>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li class="card__item fed">
+            <div class="box">
+              <div class="imgBox">
+                <img src='img/web_front_end_task.jpg' alt='Web Front-end Task Image'>
+              </div>
+
+              <div class="content">
+                <h2><svg class="fas fa-fingerprint"></svg><span> Web Front-end Task</span></h2>
+                <p class="description"><svg class="fas fa-file-alt"></svg> Web Front End Task <span class="text-secondary">[PSD to HTML]</span> for open position @ Economedia</p>
+                <div class="tech-used icons">
+                  <svg class="fab fa-html5 fa-2x"></svg>
+                  <svg class="fab fa-css3-alt fa-2x"></svg>
+                  <svg class="fab fa-sass fa-2x"></svg>
+                  <svg class="fab fa-js-square fa-2x"></svg>
+                </div>
+                <div class="icons">
+                  <a href="https://ralitsavoronevska.github.io/web-front-end-task/" target="_blank" rel="noopener" aria-label="Eye icon"><svg class="fas fa-eye fa-2x"></svg></a>
+                  <a href="https://github.com/ralitsavoronevska/web-front-end-task" target="_blank" rel="noopener" aria-label="GitHub icon"><svg class="fab fa-github fa-2x"></svg></a>
+                  <a href="https://codepen.io/ralitsavoronevska/pen/eqeojw" target="_blank" rel="noopener" aria-label="Codepen icon"><svg class="fab fa-codepen fa-2x"></svg></a>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li class="card__item fed">
+            <div class="box">
+              <div class="imgBox">
+                <img src='img/liquid_layout.jpg' alt='Liquid Layout Image'>
+              </div>
+
+              <div class="content">
+                <h2><svg class="fas fa-fingerprint"></svg><span> Liquid Layout</span></h2>
+                <p class="description"><svg class="fas fa-file-alt"></svg> Liquid Layout Web Front End Task <span class="text-secondary">[PSD to HTML]</span> for open position @ Company X</p>
+                <div class="tech-used icons">
+                  <svg class="fab fa-html5 fa-2x"></svg>
+                  <svg class="fab fa-css3-alt fa-2x"></svg>
+                  <svg class="fab fa-sass fa-2x"></svg>
+                  <svg class="fab fa-js-square fa-2x"></svg>
+                </div>
+                <div class="icons">
+                  <a href="https://ralitsavoronevska.github.io/liquid-layout/" target="_blank" rel="noopener" aria-label="Eye icon"><svg class="fas fa-eye fa-2x"></svg></a>
+                  <a href="https://github.com/ralitsavoronevska/liquid-layout" target="_blank" rel="noopener" aria-label="GitHub icon"><svg class="fab fa-github fa-2x"></svg></a>
+                  <a href="https://codepen.io/ralitsavoronevska/pen/vzvjdw" target="_blank" rel="noopener" aria-label="Codepen icon"><svg class="fab fa-codepen fa-2x"></svg></a>
+                </div>
+              </div>
+            </div>
+          </li>
+
+        </ul>
+      </section>
+    </section>
+    <!-- END PROJECTS SECTION -->
   </main>
 
-  <footer>Ralitsa Voronevska &copy; 2019</footer>
-  
+  <footer>Ralitsa Voronevska &copy; 2020</footer>
   <script src="js/main.js" async></script>
 
 </body>
