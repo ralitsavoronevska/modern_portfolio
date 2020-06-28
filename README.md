@@ -1,16 +1,20 @@
 # Responsive Portfolio Website
 [Live Preview](https://ralitsavoronevska.github.io/modern_portfolio/)
 
+# Desktop Preview:
 <img src="dist/img/modern_portfolio_desktop_preview.jpg" />
 
+# Tablet Landscape Preview:
 <img src="dist/img/modern_portfolio_tablet_preview_landscape_1.png"/>
 <img src="dist/img/modern_portfolio_tablet_preview_landscape_2.png"/>
 
-<img src="dist/img/modern_portfolio_tablet_preview_portrait_1.png"/>
-<img src="dist/img/modern_portfolio_tablet_preview_portrait_2.png"/>
+# Tablet Portrait Preview:
+<img src="dist/img/modern_portfolio_tablet_preview_portrait_1.png" width="200" height="200" />
+<img src="dist/img/modern_portfolio_tablet_preview_portrait_2.png" width="200" height="200" />
 
-<img src="dist/img/modern_portfolio_mobile_preview_1.jpg"/>
-<img src="dist/img/modern_portfolio_mobile_preview_2.jpg"/>
+# Mobile Preview:
+<img src="dist/img/modern_portfolio_mobile_preview_1.jpg" width="200" height="200" />
+<img src="dist/img/modern_portfolio_mobile_preview_2.jpg" width="200" height="200" />
 
 # Built with:
 * HTML5, CSS3 (Grid template areas, Flex, transitions, etc.), SASS (mixins, etc.), Vanilla JS
