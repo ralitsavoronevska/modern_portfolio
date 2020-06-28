@@ -8,13 +8,25 @@
 <img src="dist/img/modern_portfolio_tablet_preview_landscape_1.png"/>
 <img src="dist/img/modern_portfolio_tablet_preview_landscape_2.png"/>
 
-# Tablet Portrait Preview:
-<img align="left" width="49%" height="49%" src="dist/img/modern_portfolio_tablet_preview_portrait_1.png" />
-<img align="left" width="49%" height="49%" src="dist/img/modern_portfolio_tablet_preview_portrait_2.png" />
+<table>
+  <tr>
+    <td>Tablet Portrait Preview</td>
+  </tr>
+  <tr>
+    <td><img width="49%" height="49%" src="dist/img/modern_portfolio_tablet_preview_portrait_1.png"></td>
+    <td><img width="49%" height="49%" src="dist/img/modern_portfolio_tablet_preview_portrait_2.png"></td>
+  </tr>
+ </table>
 
-# Mobile Preview:
-<img align="left" width="49%" height="49%" src="dist/img/modern_portfolio_mobile_preview_1.jpg" />
-<img align="left" width="49%" height="49%" src="dist/img/modern_portfolio_mobile_preview_2.jpg" />
+<table>
+  <tr>
+    <td>Mobile Preview</td>
+  </tr>
+  <tr>
+    <td><img width="49%" height="49%" src="dist/img/modern_portfolio_mobile_preview_1.jpg"></td>
+    <td><img width="49%" height="49%" src="dist/img/modern_portfolio_mobile_preview_2.jpg"></td>
+  </tr>
+ </table>
 
 # Built with:
 * HTML5, CSS3 (Grid template areas, Flex, transitions, etc.), SASS (mixins, etc.), Vanilla JS
