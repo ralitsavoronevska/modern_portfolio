@@ -10,21 +10,21 @@
 
 <table>
   <tr>
-    <td>Tablet Portrait Preview</td>
+    <td colspan="2">Tablet Portrait Preview</td>
   </tr>
   <tr>
-    <td><img width="49%" height="49%" src="dist/img/modern_portfolio_tablet_preview_portrait_1.png"></td>
-    <td><img width="49%" height="49%" src="dist/img/modern_portfolio_tablet_preview_portrait_2.png"></td>
+    <td><img src="dist/img/modern_portfolio_tablet_preview_portrait_1.png"></td>
+    <td><img src="dist/img/modern_portfolio_tablet_preview_portrait_2.png"></td>
   </tr>
  </table>
 
 <table>
   <tr>
-    <td>Mobile Preview</td>
+    <td colspan="2">Mobile Preview</td>
   </tr>
   <tr>
-    <td><img width="49%" height="49%" src="dist/img/modern_portfolio_mobile_preview_1.jpg"></td>
-    <td><img width="49%" height="49%" src="dist/img/modern_portfolio_mobile_preview_2.jpg"></td>
+    <td><img src="dist/img/modern_portfolio_mobile_preview_1.jpg"></td>
+    <td><img src="dist/img/modern_portfolio_mobile_preview_2.jpg"></td>
   </tr>
  </table>
 
