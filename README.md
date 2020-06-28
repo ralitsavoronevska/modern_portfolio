@@ -9,12 +9,12 @@
 <img src="dist/img/modern_portfolio_tablet_preview_landscape_2.png"/>
 
 # Tablet Portrait Preview:
-<img align="left" width="50%" height="50%" src="dist/img/modern_portfolio_tablet_preview_portrait_1.png" />
-<img align="right" width="50%" height="50%" src="dist/img/modern_portfolio_tablet_preview_portrait_2.png" />
+<img align="left" width="49%" height="49%" src="dist/img/modern_portfolio_tablet_preview_portrait_1.png" />
+<img align="right" width="49%" height="49%" src="dist/img/modern_portfolio_tablet_preview_portrait_2.png" />
 
 # Mobile Preview:
-<img align="left" width="50%" height="50%" src="dist/img/modern_portfolio_mobile_preview_1.jpg" />
-<img align="right" width="50%" height="50%" src="dist/img/modern_portfolio_mobile_preview_2.jpg" />
+<img align="left" width="49%" height="49%" src="dist/img/modern_portfolio_mobile_preview_1.jpg" />
+<img align="right" width="49%" height="49%" src="dist/img/modern_portfolio_mobile_preview_2.jpg" />
 
 # Built with:
 * HTML5, CSS3 (Grid template areas, Flex, transitions, etc.), SASS (mixins, etc.), Vanilla JS
