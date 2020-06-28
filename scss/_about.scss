@@ -2,7 +2,7 @@
   .about-info {
     display: grid;
     grid-gap: 30px;
-    grid-template-areas: 
+    grid-template-areas:
     'bioimage bio bio'
     'icons bio bio'
     'job1 job2 job3'
@@ -23,13 +23,13 @@
       grid-area: bioimage;
       margin: auto;
     }
-      
+
     .icons {
       grid-area: icons;
       margin: auto;
       color: $secondary-color;
       @include easeOut;
-      
+
       &::before {
         display: inline-block;
         font-style: normal;
@@ -38,7 +38,7 @@
         -webkit-font-smoothing: antialiased;
       }
     }
-      
+
     .bio {
       grid-area: bio;
       font-size: 1.5rem;
@@ -64,10 +64,10 @@
       }
       h3, h4, p {
         font-size: 1.8rem;
-        font-weight: bold;       
+        font-weight: bold;
       }
       h3, h4, a { color: $secondary-color; }
-      a { text-decoration: underline; }    
+      a { text-decoration: underline; }
     }
   }
 }

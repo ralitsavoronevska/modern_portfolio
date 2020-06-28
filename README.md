@@ -2,7 +2,15 @@
 [Live Preview](https://ralitsavoronevska.github.io/modern_portfolio/)
 
 <img src="dist/img/modern_portfolio_desktop_preview.jpg" />
-<img src="dist/img/modern_portfolio_tablet_&_mobile_preview.jpg"/>
+
+<img src="dist/img/modern_portfolio_tablet_preview_landscape_1.jpg"/>
+<img src="dist/img/modern_portfolio_tablet_preview_landscape_2.jpg"/>
+
+<img src="dist/img/modern_portfolio_tablet_preview_portrait_1.jpg"/>
+<img src="dist/img/modern_portfolio_tablet_preview_portrait_2.jpg"/>
+
+<img src="dist/img/modern_portfolio_mobile_preview_1.jpg"/>
+<img src="dist/img/modern_portfolio_mobile_preview_2.jpg"/>
 
 # Built with:
 * HTML5, CSS3 (Grid template areas, Flex, transitions, etc.), SASS (mixins, etc.), Vanilla JS
@@ -11,10 +19,10 @@
 
 # Browser support:
 (Last updated and tested: 22/06/2020)
-* Chrome 83.0.4103.106 (Official Build) (64-bit)
+* Chrome 83.0.4103.116 (Official Build) (64-bit)
 * Firefox 77.0.1 (64-bit)
 * Opera 68.0.3618.173
-* IE - no support for the moment
+* IE Microsoft Edge 83.0.478.56 (Official build) (64-bit)
 
 # Tools used:
 * Photoshop CC 2020
