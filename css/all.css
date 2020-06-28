@@ -61,68 +61,68 @@ h1, h2, h3 {
   height: 4rem; }
 
 .fa-twitter {
-  background: url("../img/twitter-brands.svg"); }
+  background: url("../img/svgs/twitter-brands.svg"); }
 
 .fa-facebook-square {
-  background: url("../img/facebook-square-brands.svg"); }
+  background: url("../img/svgs/facebook-square-brands.svg"); }
 
 .fa-linkedin {
-  background: url("../img/linkedin-brands.svg"); }
+  background: url("../img/svgs/linkedin-brands.svg"); }
 
 .fa-fingerprint {
-  background: url("../img/fingerprint-solid.svg"); }
+  background: url("../img/svgs/fingerprint-solid.svg"); }
 
 .fa-file-alt {
-  background: url("../img/file-alt-solid.svg"); }
+  background: url("../img/svgs/file-alt-solid.svg"); }
 
 .fa-html5 {
-  background: url("../img/html5-brands.svg"); }
+  background: url("../img/svgs/html5-brands.svg"); }
 
 .fa-css3-alt {
-  background: url("../img/css3-alt-brands.svg"); }
+  background: url("../img/svgs/css3-alt-brands.svg"); }
 
 .fa-sass {
-  background: url("../img/sass-brands.svg"); }
+  background: url("../img/svgs/sass-brands.svg"); }
 
 .fa-js-square {
-  background: url("../img/js-square-brands.svg"); }
+  background: url("../img/svgs/js-square-brands.svg"); }
 
 .fa-bootstrap {
-  background: url("../img/bootstrap-brands.svg"); }
+  background: url("../img/svgs/bootstrap-brands.svg"); }
 
 .fa-git-alt {
-  background: url("../img/git-alt-brands.svg"); }
+  background: url("../img/svgs/git-alt-brands.svg"); }
 
 .fa-gulp {
-  background: url("../img/gulp-brands.svg");
+  background: url("../img/svgs/gulp-brands.svg");
   width: 2rem; }
 
 .fa-eye {
-  background: url("../img/eye-solid.svg"); }
+  background: url("../img/svgs/eye-solid.svg"); }
 
 .fa-github {
-  background: url("../img/github-brands.svg"); }
+  background: url("../img/svgs/github-brands.svg"); }
 
 .fa-codepen {
-  background: url("../img/codepen-brands.svg"); }
+  background: url("../img/svgs/codepen-brands.svg"); }
 
 .fa-free-code-camp {
-  background: url("../img/free-code-camp-brands.svg"); }
+  background: url("../img/svgs/free-code-camp-brands.svg"); }
 
 .fa-link {
-  background: url("../img/link-solid.svg"); }
+  background: url("../img/svgs/link-solid.svg"); }
 
 .fa-calendar-alt {
-  background: url("../img/calendar-alt-solid.svg"); }
+  background: url("../img/svgs/calendar-alt-solid.svg"); }
 
 .fa-user-tie {
-  background: url("../img/user-tie-solid.svg"); }
+  background: url("../img/svgs/user-tie-solid.svg"); }
 
 .fa-tools {
-  background: url("../img/tools-solid.svg"); }
+  background: url("../img/svgs/tools-solid.svg"); }
 
 .fa-star {
-  background: url("../img/star-solid.svg"); }
+  background: url("../img/svgs/star-solid.svg"); }
 
 header {
   position: fixed;
