@@ -3,11 +3,11 @@
 
 <img src="dist/img/modern_portfolio_desktop_preview.jpg" />
 
-<img src="dist/img/modern_portfolio_tablet_preview_landscape_1.jpg"/>
-<img src="dist/img/modern_portfolio_tablet_preview_landscape_2.jpg"/>
+<img src="dist/img/modern_portfolio_tablet_preview_landscape_1.png"/>
+<img src="dist/img/modern_portfolio_tablet_preview_landscape_2.png"/>
 
-<img src="dist/img/modern_portfolio_tablet_preview_portrait_1.jpg"/>
-<img src="dist/img/modern_portfolio_tablet_preview_portrait_2.jpg"/>
+<img src="dist/img/modern_portfolio_tablet_preview_portrait_1.png"/>
+<img src="dist/img/modern_portfolio_tablet_preview_portrait_2.png"/>
 
 <img src="dist/img/modern_portfolio_mobile_preview_1.jpg"/>
 <img src="dist/img/modern_portfolio_mobile_preview_2.jpg"/>
