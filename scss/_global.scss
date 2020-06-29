@@ -91,7 +91,7 @@ h1, h2, h3 {
 
 .fa-2x { width: 3.25rem; height: 3.25rem; margin-right: 10px; }
 .fa-2x:last-child { margin-right: 0; }
-.fa-4x { width: 4rem; height: 4rem; }
+.fa-4x { width: 4rem; height: 4rem; margin-right: 10px; }
 .fa-twitter { background: url("../img/svgs/twitter-brands.svg"); }
 .fa-facebook-square { background: url("../img/svgs/facebook-square-brands.svg"); }
 .fa-linkedin { background: url("../img/svgs/linkedin-brands.svg"); }
@@ -104,10 +104,13 @@ h1, h2, h3 {
 .fa-bootstrap { background: url("../img/svgs/bootstrap-brands.svg"); }
 .fa-git-alt { background: url("../img/svgs/git-alt-brands.svg"); }
 .fa-gulp { background: url("../img/svgs/gulp-brands.svg"); width: 2rem; }
+.fa-python { background: url("../img/svgs/python-brands.svg"); }
 .fa-eye { background: url("../img/svgs/eye-solid.svg"); }
 .fa-github { background: url("../img/svgs/github-brands.svg"); }
 .fa-codepen { background: url("../img/svgs/codepen-brands.svg"); }
 .fa-free-code-camp { background: url("../img/svgs/free-code-camp-brands.svg"); }
+.fa-youtube { background: url("../img/svgs/youtube-brands.svg"); }
+.fa-images { background: url("../img/svgs/images-solid.svg"); }
 .fa-link { background: url("../img/svgs/link-solid.svg"); }
 .fa-calendar-alt { background: url("../img/svgs/calendar-alt-solid.svg"); }
 .fa-user-tie { background: url("../img/svgs/user-tie-solid.svg"); }
@@ -128,6 +131,7 @@ main {
   padding: 9rem 1rem 4rem 1rem;
   min-height: calc(100vh - 60px);
   &#home { padding: 9rem 4rem 4rem 4rem; }
+  &#about { padding: 9rem 2rem 4rem 2rem; }
 }
 
 .icons {

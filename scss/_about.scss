@@ -25,18 +25,11 @@
     }
 
     .icons {
+      text-align: center;
       grid-area: icons;
       margin: auto;
       color: $secondary-color;
       @include easeOut;
-
-      &::before {
-        display: inline-block;
-        font-style: normal;
-        font-variant: normal;
-        text-rendering: auto;
-        -webkit-font-smoothing: antialiased;
-      }
     }
 
     .bio {
@@ -55,13 +48,6 @@
       background: darken($primary-color, 5);
       padding: 3rem;
       border-bottom: 3px solid $secondary-color;
-      &::before {
-        display: inline-block;
-        font-style: normal;
-        font-variant: normal;
-        text-rendering: auto;
-        -webkit-font-smoothing: antialiased;
-      }
       h3, h4, p {
         font-size: 1.8rem;
         font-weight: bold;
