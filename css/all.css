@@ -58,7 +58,8 @@ h1, h2, h3 {
 
 .fa-4x {
   width: 4rem;
-  height: 4rem; }
+  height: 4rem;
+  margin-right: 10px; }
 
 .fa-twitter {
   background: url("../img/svgs/twitter-brands.svg"); }
@@ -97,6 +98,9 @@ h1, h2, h3 {
   background: url("../img/svgs/gulp-brands.svg");
   width: 2rem; }
 
+.fa-python {
+  background: url("../img/svgs/python-brands.svg"); }
+
 .fa-eye {
   background: url("../img/svgs/eye-solid.svg"); }
 
@@ -108,6 +112,12 @@ h1, h2, h3 {
 
 .fa-free-code-camp {
   background: url("../img/svgs/free-code-camp-brands.svg"); }
+
+.fa-youtube {
+  background: url("../img/svgs/youtube-brands.svg"); }
+
+.fa-images {
+  background: url("../img/svgs/images-solid.svg"); }
 
 .fa-link {
   background: url("../img/svgs/link-solid.svg"); }
@@ -137,6 +147,8 @@ main {
   min-height: calc(100vh - 60px); }
   main#home {
     padding: 9rem 4rem 4rem 4rem; }
+  main#about {
+    padding: 9rem 2rem 4rem 2rem; }
 
 .icons {
   margin-top: 1rem; }
@@ -367,16 +379,11 @@ footer {
     grid-area: bioimage;
     margin: auto; }
   #about .about-info .icons {
+    text-align: center;
     grid-area: icons;
     margin: auto;
     color: #1fcbcf;
     transition: all 0.5s ease-out; }
-    #about .about-info .icons::before {
-      display: inline-block;
-      font-style: normal;
-      font-variant: normal;
-      text-rendering: auto;
-      -webkit-font-smoothing: antialiased; }
   #about .about-info .bio {
     grid-area: bio;
     font-size: 1.5rem; }
@@ -396,12 +403,6 @@ footer {
     background: #373737;
     padding: 3rem;
     border-bottom: 3px solid #1fcbcf; }
-    #about .about-info .job::before {
-      display: inline-block;
-      font-style: normal;
-      font-variant: normal;
-      text-rendering: auto;
-      -webkit-font-smoothing: antialiased; }
     #about .about-info .job h3, #about .about-info .job h4, #about .about-info .job p {
       font-size: 1.8rem;
       font-weight: bold; }
@@ -500,7 +501,7 @@ main#work {
     .cards .card__item.show {
       height: 415px; }
     .cards .card__item.show .box {
-      height: 415px;
+      height: 405px;
       transform: translateY(-4px);
       box-shadow: 0 4px 25px 0 rgba(0, 0, 0, 0.3), 0 0 1px 0 rgba(0, 0, 0, 0.25); }
       .cards .card__item.show .box .imgBox img, .cards .card__item.show .box .content {
@@ -519,7 +520,6 @@ main#work {
         top: 0;
         left: 0;
         width: 100%;
-        height: 200px;
         padding: 5px;
         box-sizing: border-box; }
         .cards .card__item .box .imgBox img {
@@ -561,7 +561,7 @@ main#work {
         left: 5px;
         right: 5px;
         bottom: 5px;
-        height: 220px;
+        height: 210px;
         background: #444;
         text-align: left;
         padding: 10px;
